@@ -42,6 +42,9 @@ source install/setup.bash
    ros2 run service calc_client
    ```
 
+### Video
+[Watch the demo](https://drive.google.com/file/d/10AzWJNAQFJA1g6KXBoArXmbiw8yOnt7t/view?usp=drive_link)   
+
 ## D: Actions - Counting Action
 A ROS 2 action has been implemented to count until a target number with a defined period. The action files are located in the respective folder.
 
@@ -55,3 +58,5 @@ A ROS 2 action has been implemented to count until a target number with a define
    ros2 run action_py count_until_client
    ```
 
+### Video
+[Watch the demo](https://drive.google.com/file/d/1vsCdGFlvOXB9hj8k_ME0ir2EDSujOMpD/view?usp=drive_link)  

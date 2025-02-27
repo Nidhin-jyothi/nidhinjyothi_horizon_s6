@@ -1,0 +1,18 @@
+Steps to Install Ubuntu 22.04 via Dual Boot
+
+1) Create a Bootable USB
+2) Download the Ubuntu 22.04 ISO from Ubuntu’s official site.
+3) Use Rufus (Windows) create a bootable USB.
+4) Prepare Windows for Dual Boot
+5) Disable Fast Startup and Secure Boot from BIOS.
+6) Shrink a partition in Windows Disk Management to create free space for Ubuntu.
+7) Boot into Ubuntu Installer
+8) Restart and boot from the USB (F12 for my system).
+9) Select "Install Ubuntu".
+10) Choose "Install alongside Windows" when prompted.
+11) Assign disk space for Ubuntu.
+12) Select "/" (root) for installation.
+13) Finish Installation & Bootloader Setup
+14) After installation, restart the system.
+
+The GRUB Bootloader will allow you to choose between Windows and Ubuntu at startup.

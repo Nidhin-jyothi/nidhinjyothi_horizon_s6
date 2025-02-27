@@ -1,0 +1,25 @@
+Installing ROS 2 Humble
+
+1) Update package list
+   sudo apt update && sudo apt upgrade -y
+
+2) Add ROS 2 GPG key & source list
+   sudo apt install software-properties-common
+   sudo add-apt-repository universe
+   sudo apt update && sudo apt install curl -y
+   curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key | sudo apt-key add -
+   sudo sh -c 'echo "deb http://packages.ros.org/ros2/ubuntu $(lsb_release -cs) main" > /etc/apt/sources.list.d/ros2.list'
+   
+3) Install ROS 2 Humble
+   sudo apt update
+   sudo apt install ros-humble-desktop -y
+   
+4) Set up ROS 2 environment
+   echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
+   source ~/.bashrc
+   
+   
+Test ROS 2 using - ros2 run demo_nodes_cpp talker   
+   
+
+

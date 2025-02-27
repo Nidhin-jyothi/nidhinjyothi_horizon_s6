@@ -1,4 +1,4 @@
-# ACTIONS AND SERVICES
+# ACTION AND SERVICE
 
 ## A: Ubuntu Installation via Dual Boot
 Ubuntu has been installed via dual boot. 

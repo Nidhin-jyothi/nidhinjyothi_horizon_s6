@@ -61,6 +61,9 @@ ros2 run my_robot_controller turtle_controller.py
 - `package.xml`: Defines dependencies for the ROS 2 package.
 - `setup.py`: ROS 2 package setup file.
 
+### Video
+[Watch the demo](https://drive.google.com/file/d/1Ub-dj8h7HjTF_vHPF4tCkVy0VHp5w7gc/view?usp=drive_link)  
+
 ## Conclusion
 This project is a simple demonstration of ROS 2's capabilities using `turtlesim`. It highlights **subscribers, publishers, and services** in a practical scenario.
 

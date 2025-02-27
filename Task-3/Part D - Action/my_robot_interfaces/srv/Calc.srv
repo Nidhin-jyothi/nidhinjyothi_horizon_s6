@@ -1,0 +1,7 @@
+#Request
+int64 a
+int64 b
+string op
+---
+#Result
+int64 result

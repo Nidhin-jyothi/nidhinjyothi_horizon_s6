@@ -65,5 +65,4 @@ ros2 run my_robot_controller turtle_controller.py
 This project is a simple demonstration of ROS 2's capabilities using `turtlesim`. It highlights **subscribers, publishers, and services** in a practical scenario.
 
 ---
-For any issues or improvements, feel free to contribute! 🚀
 

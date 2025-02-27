@@ -1,4 +1,4 @@
-# Project README
+# ACTIONS AND SERVICES
 
 ## A: Ubuntu Installation via Dual Boot
 Ubuntu has been installed via dual boot. 
